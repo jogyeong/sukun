@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>최석운 갤러리 | Choi Sukun Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header id="header">
+    <div class="header-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-kr">최석운</span>
+        <span class="logo-en">CHOI SUKUN</span>
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown">
+            <a href="#gallery" class="nav-link">갤러리</a>
+            <ul class="dropdown">
+              <li><a href="#gallery-1">갤러리 I</a></li>
+              <li><a href="#gallery-2">갤러리 II</a></li>
+              <li><a href="#gallery-3">갤러리 III</a></li>
+              <li><a href="#gallery-4">갤러리 IV</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#essays" class="nav-link">평론</a></li>
+          <li class="nav-item"><a href="#biography" class="nav-link">작가소개</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">연락처</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <ul>
+        <li><a href="#gallery" class="mobile-link">갤러리</a></li>
+        <li><a href="#essays" class="mobile-link">평론</a></li>
+        <li><a href="#biography" class="mobile-link">작가소개</a></li>
+        <li><a href="#contact" class="mobile-link">연락처</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <img src="img/main.jpg" alt="최석운 작품" class="hero-img" />
+      <div class="hero-overlay"></div>
+      <div class="hero-canvas" id="heroCanvas"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-label">Korean Painter</p>
+      <h1 class="hero-title">
+        <span class="hero-title-kr">최석운</span>
+        <span class="hero-title-en">CHOI SUKUN</span>
+      </h1>
+      <p class="hero-subtitle">평범한 삶 속의 유머와 페이소스</p>
+      <p class="hero-sub-en">Humor and Pathos in Ordinary Life</p>
+      <a href="#gallery" class="hero-btn">작품 보기</a>
+    </div>
+    <div class="hero-scroll">
+      <span>SCROLL</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== STATEMENT ===== -->
+  <section id="statement" class="section statement">
+    <div class="container">
+      <div class="statement-inner">
+        <div class="statement-label">Artist Statement</div>
+        <blockquote class="statement-quote">
+          "삶은 때로 허름해 보이지만,<br>
+          깊은 애정과 설명할 수 없는 낙관주의를 담고 있습니다."
+        </blockquote>
+        <p class="statement-text">
+          저는 영웅적이거나 이상적인 주제보다 평범한 사람들을 그립니다.
+          평범한 사람들, 별 볼 일 없는 개들, 소박하게 살아가는 사람들.
+          그들의 삶에서 유머와 우수를 동시에 발견하며,
+          잊혀진 삶의 향기와 인간의 따뜻함을 화폭에 담고자 합니다.
+        </p>
+        <p class="statement-text-en">
+          I paint ordinary people rather than heroic or idealistic subjects —
+          everyday folks, unremarkable dogs, and people living modest lives.
+          I hope visitors find small comfort and laughter in my work.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Works</span>
+        <h2 class="section-title">갤러리</h2>
+      </div>
+
+      <!-- Gallery I -->
+      <div id="gallery-1" class="gallery-group">
+        <h3 class="gallery-group-title">갤러리 I</h3>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/1-1.jpg" alt="줄무늬 사나이들" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">줄무늬 사나이들</p>
+                <p class="gallery-work-info">Oil on canvas · 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/1-2.jpg" alt="여름날 욕실" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">여름날 욕실</p>
+                <p class="gallery-work-info">Oil on canvas · 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/1-3.jpg" alt="새를 든 여인" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">새를 든 여인</p>
+                <p class="gallery-work-info">Oil on canvas · 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/1-4.jpg" alt="비키니 앞에서" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">비키니 앞에서</p>
+                <p class="gallery-work-info">Oil on canvas · 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/1-5.jpg" alt="동네 이발소" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">동네 이발소</p>
+                <p class="gallery-work-info">Oil on canvas · 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/1-6.jpg" alt="전화 오기를 기다리며" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">전화 오기를 기다리며</p>
+                <p class="gallery-work-info">Oil on canvas · 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gallery II -->
+      <div id="gallery-2" class="gallery-group">
+        <h3 class="gallery-group-title">갤러리 II</h3>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/2-1.jpg" alt="하늘을 나는 가족" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">하늘을 나는 가족</p>
+                <p class="gallery-work-info">Oil on canvas · 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/2-2.jpg" alt="어미와 새끼들" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">어미와 새끼들</p>
+                <p class="gallery-work-info">Oil on canvas · 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/2-3.jpg" alt="구름 위의 개" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">구름 위의 개</p>
+                <p class="gallery-work-info">Oil on canvas · 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/2-4.jpg" alt="눈밭의 연인" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">눈밭의 연인</p>
+                <p class="gallery-work-info">Oil on canvas · 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/2-5.jpg" alt="강가의 소년" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">강가의 소년</p>
+                <p class="gallery-work-info">Oil on canvas · 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/2-6.jpg" alt="하늘 위의 가족" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">하늘 위의 가족</p>
+                <p class="gallery-work-info">Oil on canvas · 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gallery III -->
+      <div id="gallery-3" class="gallery-group">
+        <h3 class="gallery-group-title">갤러리 III</h3>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/3-1.jpg" alt="지하도에서" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">지하도에서</p>
+                <p class="gallery-work-info">Oil on canvas · 2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/3-2.jpg" alt="돼지와 나는 소년" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">돼지와 나는 소년</p>
+                <p class="gallery-work-info">Oil on canvas · 2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/3-3.jpg" alt="강변의 낚시" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">강변의 낚시</p>
+                <p class="gallery-work-info">Oil on canvas · 2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/3-4.jpg" alt="화장실에서" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">화장실에서</p>
+                <p class="gallery-work-info">Oil on canvas · 2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/3-5.jpg" alt="날아오르다" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">날아오르다</p>
+                <p class="gallery-work-info">Oil on canvas · 2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/3-6.jpg" alt="황소와 여인" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">황소와 여인</p>
+                <p class="gallery-work-info">Oil on canvas · 2017</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gallery IV -->
+      <div id="gallery-4" class="gallery-group">
+        <h3 class="gallery-group-title">갤러리 IV</h3>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/4-1.jpg" alt="돼지 타기" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">돼지 타기</p>
+                <p class="gallery-work-info">Oil on canvas · 2017</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/4-2.jpg" alt="씨름판" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">씨름판</p>
+                <p class="gallery-work-info">Oil on canvas · 2017</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/4-3.jpg" alt="개와 남자" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">개와 남자</p>
+                <p class="gallery-work-info">Oil on canvas · 2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/4-4.jpg" alt="여름날의 소동" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">여름날의 소동</p>
+                <p class="gallery-work-info">Oil on canvas · 2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/4-5.jpg" alt="홍수" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">홍수</p>
+                <p class="gallery-work-info">Oil on canvas · 2015</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-img">
+              <img src="img/4-6.jpg" alt="개와 까치" />
+              <div class="gallery-overlay">
+                <p class="gallery-work-title">개와 까치</p>
+                <p class="gallery-work-info">Oil on canvas · 2015</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ESSAYS ===== -->
+  <section id="essays" class="section essays-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Critical Essays</span>
+        <h2 class="section-title">평론</h2>
+      </div>
+      <div class="essays-grid">
+        <article class="essay-card">
+          <div class="essay-num">01</div>
+          <div class="essay-body">
+            <h3 class="essay-title">웃음 뒤에 숨겨진 삶의 페이소스,<br>최석운의 시선</h3>
+            <p class="essay-excerpt">
+              최석운의 작품은 표면적인 유머 이면에 삶의 깊은 슬픔과 온기를 동시에 품고 있다.
+              그의 붓은 화려한 영웅이 아닌, 우리 주변의 평범한 존재들을 향한다.
+            </p>
+            <span class="essay-meta">미술평론 · 2024</span>
+          </div>
+        </article>
+        <article class="essay-card">
+          <div class="essay-num">02</div>
+          <div class="essay-body">
+            <h3 class="essay-title">일상의 서사:<br>소박한 삶을 그리는 화가</h3>
+            <p class="essay-excerpt">
+              그의 캔버스 위 인물들은 비범하지 않다. 오히려 너무나 익숙한,
+              지나치기 쉬운 얼굴들이다. 그러나 최석운은 그 안에서 찬란한 인간성을 건진다.
+            </p>
+            <span class="essay-meta">갤러리 에세이 · 2023</span>
+          </div>
+        </article>
+        <article class="essay-card">
+          <div class="essay-num">03</div>
+          <div class="essay-body">
+            <h3 class="essay-title">인간의 온도:<br>최석운 회화의 세계</h3>
+            <p class="essay-excerpt">
+              평범함을 통해 보편성에 이르는 여정. 최석운의 작업은
+              잊혀진 삶의 향기를 되살리고 인간적 따뜻함을 재발견하게 한다.
+            </p>
+            <span class="essay-meta">미술비평 · 2022</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BIOGRAPHY ===== -->
+  <section id="biography" class="section bio-section">
+    <div class="container">
+      <div class="bio-inner">
+        <div class="bio-portrait">
+          <div class="bio-portrait-box">
+            <div class="bio-portrait-inner">
+              <span>崔</span>
+              <span>錫</span>
+              <span>云</span>
+            </div>
+          </div>
+          <div class="bio-name-block">
+            <p class="bio-name-kr">최석운</p>
+            <p class="bio-name-en">Choi Sukun</p>
+          </div>
+        </div>
+        <div class="bio-content">
+          <div class="section-header bio-header">
+            <span class="section-label">Biography</span>
+            <h2 class="section-title">작가소개</h2>
+          </div>
+          <p class="bio-text">
+            화가 최석운은 영웅적이거나 이상적인 주제 대신 평범한 사람들의 일상을 화폭에 담아온 작가입니다.
+            평범한 사람들, 별 볼 일 없는 개들, 소박하게 살아가는 사람들의 이야기를 통해
+            삶의 유머와 우수를 동시에 탐구합니다.
+          </p>
+          <p class="bio-text">
+            그는 삶이 "때로 허름해 보이지만 깊은 애정과 설명할 수 없는 낙관주의를 담고 있다"고 말합니다.
+            작품을 통해 잊혀진 삶의 향기와 인간의 따뜻함을 전하며,
+            관람객이 작은 위로와 웃음을 찾을 수 있기를 바랍니다.
+          </p>
+          <p class="bio-text">
+            경기도 양평군 양평읍에 작업실을 두고 활동하며,
+            한국의 평범한 일상 속 인물들을 주된 소재로 삼아 꾸준히 작업하고 있습니다.
+          </p>
+          <div class="bio-info-grid">
+            <div class="bio-info-item">
+              <span class="bio-info-label">활동</span>
+              <span class="bio-info-value">현대 구상 회화</span>
+            </div>
+            <div class="bio-info-item">
+              <span class="bio-info-label">매체</span>
+              <span class="bio-info-value">Oil on canvas</span>
+            </div>
+            <div class="bio-info-item">
+              <span class="bio-info-label">거주</span>
+              <span class="bio-info-value">경기도 양평군</span>
+            </div>
+            <div class="bio-info-item">
+              <span class="bio-info-label">연락</span>
+              <span class="bio-info-value">painter8879@naver.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">연락처</h2>
+      </div>
+      <div class="contact-inner">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <div class="contact-text">
+              <p class="contact-label">작업실</p>
+              <p class="contact-value">경기도 양평군 양평읍 회현리 452</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+              </svg>
+            </div>
+            <div class="contact-text">
+              <p class="contact-label">전화</p>
+              <p class="contact-value"><a href="tel:01038640247">010-3864-0247</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <div class="contact-text">
+              <p class="contact-label">이메일</p>
+              <p class="contact-value"><a href="mailto:painter8879@naver.com">painter8879@naver.com</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-map">
+          <div class="map-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+              <path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+            </svg>
+            <p>경기도 양평군 양평읍</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <p class="footer-logo-kr">최석운</p>
+          <p class="footer-logo-en">CHOI SUKUN GALLERY</p>
+          <p class="footer-tagline">평범한 삶 속의 유머와 페이소스</p>
+        </div>
+        <div class="footer-links">
+          <a href="#gallery">갤러리</a>
+          <a href="#essays">평론</a>
+          <a href="#biography">작가소개</a>
+          <a href="#contact">연락처</a>
+        </div>
+        <div class="footer-copy">
+          <p>© 2025 Choi Sukun Gallery. All rights reserved.</p>
+          <p>koreapainter.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
