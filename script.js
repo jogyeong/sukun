@@ -136,13 +136,11 @@ function openLightbox(index) {
   currentIndex = index;
   const item = galleryItems[currentIndex];
   const img = item.querySelector('img');
-  const title = item.querySelector('.gallery-work-title').textContent;
-  const info = item.querySelector('.gallery-work-info').textContent;
 
   lightboxImg.src = img.src;
   lightboxImg.alt = img.alt;
-  lightboxTitle.textContent = title;
-  lightboxInfo.textContent = info;
+  lightboxTitle.textContent = '';
+  lightboxInfo.textContent = '';
 
   lightbox.classList.add('active');
   lightbox.setAttribute('aria-hidden', 'false');

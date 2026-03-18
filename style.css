@@ -475,10 +475,12 @@ ul { list-style: none; }
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 320px;
   gap: 16px;
 }
-.gallery-item { overflow: hidden; }
+.gallery-item {
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
 
 .gallery-img {
   width: 100%;
@@ -949,7 +951,6 @@ ul { list-style: none; }
 
   .gallery-grid {
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 220px;
   }
 
   .essays-grid { grid-template-columns: 1fr; }
@@ -978,8 +979,7 @@ ul { list-style: none; }
 
 @media (max-width: 480px) {
   .gallery-grid {
-    grid-template-columns: 1fr;
-    grid-auto-rows: 240px;
+    grid-template-columns: 1fr 1fr;
   }
   .section-title { font-size: 1.8rem; }
   .hero-title-kr { font-size: 3rem; }
